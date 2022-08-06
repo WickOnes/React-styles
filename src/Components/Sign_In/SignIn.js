@@ -59,7 +59,7 @@ const SignIn = () => {
 
   return (
     <BoxStyle>
-      <NavLink to="/">
+      <NavLink to="/React-styles/">
         <LogoStyle />
       </NavLink>
       <LoginStyled>
@@ -94,7 +94,7 @@ const SignIn = () => {
           />
         </FormStyle>
         <LinkWrapper>
-          <Link to="/">Forgot password?</Link>
+          <Link to="/React-styles/">Forgot password?</Link>
           <Link to="/sign_up">Don't have an account? Sign up</Link>
         </LinkWrapper>
         <Copiright>Copyright © Your Website 2020</Copiright>

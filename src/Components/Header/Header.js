@@ -8,7 +8,7 @@ import { HeaderStyled, LoginStyle, LogoStyle } from "./StyleHeader";
 const Header = () => {
   return (
     <HeaderStyled>
-      <NavLink to="/">
+      <NavLink to="/React-styles/">
         <LogoStyle />
       </NavLink>
       <NavLink to="/sign_in">

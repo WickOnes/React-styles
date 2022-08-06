@@ -30,7 +30,7 @@ const SignUp = () => {
     localStorage.setItem("passwordRegistration", password.value);
     localStorage.setItem("firstNameRegistration", firstName.value);
     localStorage.setItem("lastNameRegistration", lastName.value);
-    window.location.assign("http://localhost:3000/");
+    window.location.assign("https://wickones.github.io/React-styles/");
   }
 
   useEffect(() => {
@@ -45,7 +45,7 @@ const SignUp = () => {
 
   return (
     <BoxStyle>
-      <NavLink to="/">
+      <NavLink to="/React-styles/">
         <LogoStyle />
       </NavLink>
       <LoginStyled>

@@ -16,7 +16,7 @@ function App() {
   return (
     <MainStyle>
       <Router>
-        <Route path="/" exact component={Header} />
+        <Route path="/React-styles/" exact component={Header} />
         <Route path="/sign_in" component={SignIn} />
         <Route path="/sign_up" component={SignUp} />
       </Router>
